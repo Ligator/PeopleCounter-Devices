@@ -60,11 +60,6 @@ void visit(){
   client.println("Connection: close");
   client.println();
   client.stop();
-  }
-  else {
-    // kf you didn't get a connection to the server:
-    Serial.println("connection failed");
-  }
 }
 
 void unvisit(){
@@ -76,11 +71,6 @@ void unvisit(){
   client.println("Connection: close");
   client.println();
   client.stop();
-  }
-  else {
-    // kf you didn't get a connection to the server:
-    Serial.println("connection failed");
-  }
 }
 
 void setup() {
